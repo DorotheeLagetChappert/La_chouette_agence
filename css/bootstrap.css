@@ -1635,9 +1635,17 @@ a.bg-danger:hover {
 ol,
 ul {
     margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
 }
-
+li {
+    padding: 2% 2%;
+}
+li a{
+    color: #fff!important;
+}
 ol ol,
 ol ul,
 ul ol,
