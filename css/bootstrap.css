@@ -2008,12 +2008,6 @@ pre code {
     margin-right: auto;
     margin-left: auto
 }
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
-
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,
@@ -4372,7 +4366,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
@@ -5500,6 +5493,11 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 @media (max-width:767px) {
+    ul
+    {
+        flex-wrap: wrap;
+        padding: 0;
+    }
     .imgtext{
         width: 80%;
         object-fit: cover;
