@@ -95,7 +95,7 @@ sub {
 }
 
 img {
-    border: 0
+    border: 0;
 }
 
 svg:not(:root) {
@@ -1421,7 +1421,6 @@ figure {
 img {
     vertical-align: middle
 }
-
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
 .img-responsive,
@@ -5501,6 +5500,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 @media (max-width:767px) {
+    .imgtext{
+        width: 80%;
+        object-fit: cover;
+    }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
         color: #777
     }
