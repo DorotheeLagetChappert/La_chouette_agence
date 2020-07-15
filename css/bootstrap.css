@@ -4231,10 +4231,9 @@ input[type=submit].btn-block {
 }
 
 .fade {
-    opacity: 0;
-    -webkit-transition: opacity .15s linear;
-    -o-transition: opacity .15s linear;
-    transition: opacity .15s linear
+    -webkit-transition: .15s linear;
+    -o-transition: .15s linear;
+    transition: .15s linear;
 }
 
 .fade.in {
@@ -7132,16 +7131,10 @@ button.close {
     background-color: #000
 }
 
-.modal-backdrop.fade {
-    filter: alpha(opacity=0);
-    opacity: 0
-}
-
 .modal-backdrop.in {
     filter: alpha(opacity=50);
     opacity: .5
 }
-
 .modal-header {
     min-height: 16.43px;
     padding: 15px;
@@ -7211,7 +7204,6 @@ button.close {
 
 .tooltip {
     position: absolute;
-    z-index: 1070;
     display: block;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
@@ -7228,9 +7220,7 @@ button.close {
     word-spacing: normal;
     word-wrap: normal;
     white-space: normal;
-    filter: alpha(opacity=0);
-    opacity: 0;
-    line-break: auto
+    line-break: auto;
 }
 
 .tooltip.in {
